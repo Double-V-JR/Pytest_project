@@ -1,4 +1,4 @@
-def test_page_oscar(browser):
+def test_cart_button(browser):
     link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
     browser.implicitly_wait(5)
     browser.get(link)
